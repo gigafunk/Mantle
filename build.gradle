@@ -73,6 +73,8 @@ if (System.getenv().ARTIFACT_VERSION != null) {
 }
 
 version = "${config.minecraft_version}-${artifact_version}"
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 minecraft {
     version = config.forge_version + "-" + config.minecraft_version
